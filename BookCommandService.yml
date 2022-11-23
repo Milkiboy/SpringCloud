@@ -10,7 +10,7 @@ spring:
   cloud:
     config:
       import-check:
-        enabled: false
+        enabled: true
   kafka:
     consumer:
       group-id: gid
