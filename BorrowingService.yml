@@ -1,5 +1,5 @@
 server:
-  port: 8084
+  port: 8081
 
 spring:
   data:
@@ -31,7 +31,7 @@ spring:
         tofasttopic: senderC
 
   application:
-    name: BorrowingService
+    name: CustomerService
   zipkin:
     base-url: http://localhost:9411/
 
